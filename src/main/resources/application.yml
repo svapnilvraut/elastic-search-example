@@ -1,0 +1,7 @@
+#spring:
+#  elasticsearch:
+#    rest:
+#      uris: "https://localhost:9200"
+#      connection-timeout: "10s"
+#      username: "elastic"
+#      password: "PJiLJWLIrTdUQq5ehnoC"
