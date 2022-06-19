@@ -35,7 +35,7 @@ public class Config extends AbstractElasticsearchConfiguration {
             final CredentialsProvider credentialsProvider =
                     new BasicCredentialsProvider();
             credentialsProvider.setCredentials(AuthScope.ANY,
-                    new UsernamePasswordCredentials("elastic","password"));
+                    new UsernamePasswordCredentials("elastic","PJiLJWLIrTdUQq5ehnoC"));
 
             SSLContextBuilder sslBuilder = SSLContexts.custom()
                     .loadTrustMaterial(null, (x509Certificates, s) -> true);
